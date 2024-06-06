@@ -1,0 +1,11 @@
+{
+  "name": "@local/coding-challenges",
+  "type": "module",
+  "scripts": {
+    "check-types": "tsc",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@local/utils": "workspace:*"
+  }
+}

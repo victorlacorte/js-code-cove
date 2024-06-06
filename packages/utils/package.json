@@ -1,0 +1,11 @@
+{
+  "name": "@local/utils",
+  "type": "module",
+  "scripts": {
+    "build": "tsc --build"
+  },
+  "exports": {
+    "import": "./src/index.mjs",
+    "types": "./types/index.d.mts"
+  }
+}
