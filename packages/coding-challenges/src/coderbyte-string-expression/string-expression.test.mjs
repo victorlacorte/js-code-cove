@@ -9,7 +9,7 @@ import {
   translateResult,
 } from "./string-expression.mjs";
 
-describe.only("parseExpression", () => {
+describe("parseExpression", () => {
   each([
     ["foursixminustwotwoplusonezero", "threefour"],
     ["onezeropluseight", "oneeight"],
